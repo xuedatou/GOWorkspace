@@ -22,7 +22,7 @@ func getAllUrls() []string {
 	//	url = "https://dd.flexui.win/htm_data/8/1809/327"+strconv.Itoa(i)+".html"     //网址信息
 	//
 	//}
-	url = "https://dd.flexui.win/thread0806.php?fid=16"
+	url = ""
 	doc, err := goquery.NewDocument(url)      //获取将要爬取的html文档信息
 	if err != nil {
 		log.Fatal(err)
